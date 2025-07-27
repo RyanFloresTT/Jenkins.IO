@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.046617">
+  <test-suite type="TestSuite" id="1000" name="Jenkins.IO" fullname="Jenkins.IO" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.046617" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1004" name="Assembly-CSharp-Editor.dll" fullname="C:/Game Dev/Unity/Jenkins.IO/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.041573" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23368" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1005" name="Tests" fullname="Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.041200" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1006" name="Editor" fullname="Tests.Editor" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.041015" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="PlayerTests" fullname="Tests.Editor.PlayerTests" classname="Tests.Editor.PlayerTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.039914" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="TakeDamage_ReducesHealth" fullname="Tests.Editor.PlayerTests.TakeDamage_ReducesHealth" methodname="TakeDamage_ReducesHealth" classname="Tests.Editor.PlayerTests" runstate="Runnable" seed="906694329" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.021279" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="TakeDamage_ZeroHealth_DestroysGameObject" fullname="Tests.Editor.PlayerTests.TakeDamage_ZeroHealth_DestroysGameObject" methodname="TakeDamage_ZeroHealth_DestroysGameObject" classname="Tests.Editor.PlayerTests" runstate="Runnable" seed="373098235" result="Passed" start-time="2025-07-27 05:51:20Z" end-time="2025-07-27 05:51:20Z" duration="0.001036" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/WINDOWS/system32/config/systemprofile/AppData/LocalLow/DefaultCompany/Jenkins_IO\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -6,7 +6,7 @@ namespace Player {
 
         public void TakeDamage(int damage) {
             Health -= damage;
-            if (Health <= 0) Destroy(gameObject);
+            if (Health <= 0) DestroyImmediate(gameObject);
         }
     }
 }
